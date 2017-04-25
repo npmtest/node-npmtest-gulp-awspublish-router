@@ -1,6 +1,6 @@
 # npmtest-gulp-awspublish-router
 
-#### test coverage for  [gulp-awspublish-router (v0.1.3)](https://github.com/jussi-kalliokoski/gulp-awspublish-router)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-awspublish-router.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-awspublish-router) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-awspublish-router.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-awspublish-router)
+#### basic test coverage for  [gulp-awspublish-router (v0.1.3)](https://github.com/jussi-kalliokoski/gulp-awspublish-router)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-awspublish-router.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-awspublish-router) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-awspublish-router.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-awspublish-router)
 
 #### Define your build sources in HTML.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-awspublish-router/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-awspublish-router/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-awspublish-router/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-awspublish-router/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
         "coveralls": "cat ./coverage/lcov.info | COVERALLS_SERVICE_NAME=\"travis-ci\" ./node_modules/.bin/coveralls",
         "test": "gulp test"
     },
-    "version": "0.1.3"
+    "version": "0.1.3",
+    "bin": {}
 }
 ```
 
